@@ -4,7 +4,7 @@ cd C:\
 
 # Download latest Sophos installer from Sophos Central and save in C:\
 
-Invoke-WebRequest -Uri <Insert your Sophos cloud download URL here>SophosSetup.exe -OutFile C:\SophosSetup.exe
+Invoke-WebRequest -Uri <Insert your Sophos cloud download URL here> -OutFile C:\SophosSetup.exe
 
 # Install Sophos silently
 
